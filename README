@@ -1,0 +1,4 @@
+The only thing you should need to change to make this work is:
+
+	1. Edit the DataMapper.setup line in models.rb to reflect your local database
+	2. Edit the Amaxon access keys in index.rb to reflect your credentials
