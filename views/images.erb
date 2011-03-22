@@ -1,0 +1,8 @@
+<h1>All images</h1>
+
+<% @images.each do |image| %>
+	<p>
+		<img src="http://webdevbucket.s3.amazonaws.com/<%= image.path %>" /><br />
+		<%= image.body %>
+	</p>
+<% end %>
